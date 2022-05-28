@@ -192,4 +192,9 @@
   
 </details>
 
+-------------------------------
+Referências
+ - [Mini curso de Git](https://minicursogit.github.io/#/)
+ - [GIT CHEAT SHEET](https://education.github.com/git-cheat-sheet-education.pdf)
+
 ###### tags: `Git` `GitHub` `SSH` `Repositórios`
