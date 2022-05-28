@@ -1,4 +1,4 @@
-![](./hd-header.png)
+![](./assets/hd-header.png)
 
 ## Front-End | Git e GitHub
 
@@ -171,3 +171,25 @@
   ```
 </details>
 
+<details>
+  <summary>5. GitHub</summary>
+
+  > GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo. 
+
+  > Criar uma conta [link](https://github.com/signup)  
+
+  ![](./assets/10.png)
+</details>
+
+<details>
+  <summary>6. SSH</summary>  
+
+  > Secure Shell é um protocolo de rede criptográfico para operação de serviços de rede de forma segura sobre uma rede insegura. O melhor exemplo de aplicação conhecido é para login remoto de utilizadores a sistemas de computadores.
+  
+  - Gerar chave pública e privada [link](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh)
+
+  ![](./assets/11.png)
+  
+</details>
+
+###### tags: `Git` `GitHub` `SSH` `Repositórios`
