@@ -77,13 +77,11 @@
 <details>
   <summary>4. Git - Comandos básicos</summary>
 
-  - Consultas rápidas. Caso não se lembre de algum comando no decorrer da prática ou queira uma explicação mais detalhada, use os comandos abaixo:
   ```bash
+  # Consultas rápidas. Caso não se lembre de algum comando no decorrer da prática ou queira uma explicação mais detalhada, use os comandos abaixo:
+
+  # O comando git help é usado para obter ajuda sobre os comandos.
   git help
-  ```
-  ou
-  ```bash
-  man git
   ```
 
   - Configurando o ambiente
@@ -104,8 +102,7 @@
   # Este comando cria toda a estrutura que o Git necessita para funcionar. Os arquivos são criador na pasta oculta .git/
   # A partir de agora você pode desenvolver seu projeto sob controle do Git
   ```
-
-
+  
   - Verificando o estado do projeto
   >
   ```bash  
@@ -114,7 +111,7 @@
   ```
 
   - Adicionando arquivos
-  >
+
   ```bash
   # O git add adiciona ou atualiza um arquivo da staging area.
   # Ou seja, o comando informa ao Git para rastrear o referido arquivo. Caso o arquivo já esteja sob controle do Git, ele o atualiza.
@@ -127,7 +124,7 @@
   ```
 
   - Confirmando mudanças
-  >
+
   ```bash
   # git commit transfere o estado do projeto salvo na staging area para o repositório do projeto.
   # Simplificando, ele confirma as suas modificações, criando um novo estado ou "ponto de referência" para o seu projeto. Todo commit é associado à um checksum para poder ser referenciado posteriormente.
@@ -136,35 +133,35 @@
   ```
 
   - Desfazendo mudanças
-  >
+
   ```bash
   # O comando git restore restaura o estado do arquivo para o estado anterior ao commit.
   git restore arquivo.txt
   ```  
 
   - Vinculando repositório local com o remoto
-  >
+  
   ```bash
   # O comando git remote add adiciona um repositório remoto ao projeto.
   git remote add origin https://github.com/<usuário>/<repositório>.git
   ```
 
   - Enviando mudanças para o repositório remoto
-  >
+  
   ```bash
   # O comando git push envia as mudanças para o repositório remoto.
   git push -u origin master
   ```
 
   - Atualizando o repositório remoto
-  >
+  
   ```bash
   # O comando git pull atualiza o repositório remoto com as mudanças do repositório local.
   git pull
   ```
 
   - Clonando repositório remoto
-  >
+  
   ```bash
   # O comando git clone cria um repositório local a partir de um repositório remoto.
   git clone https://github.com/<usuário>/<repositório>.git
